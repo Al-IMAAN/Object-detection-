@@ -15,7 +15,7 @@ with open(config['yolo_names'], 'r') as f:
 
 # print(classes)
 # Set video source
-cap = cv2.VideoCapture(config['video_source'])
+cap = cv2.VideoCapture(config['video_source'])  #  instead of this change this to 0 ---> webcam
 
 while True:
     # Read a frame from the video source
@@ -26,7 +26,7 @@ while True:
         print("Failed to grab frame")
         break
     resized_frame = cv2.resize(frame, (480, 640))
-    if cap.get(1) % 30 == 0:
+    if cap.get(1) % 30 == 0: # ----> this part will be a part of drawing the box
         # resized_frame = cv2.resize(frame, (480, 640))  # You can change width and height
         height, width = resized_frame.shape[:2]
         # cv2.imshow("Vedo", resized_frame)
