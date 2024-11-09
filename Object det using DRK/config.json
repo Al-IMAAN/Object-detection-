@@ -1,7 +1,7 @@
 {
-    "yolo_cfg": "C:\\Users\\imaan\\Desktop\\opencv prj\\Object_detection\\Object det using DRK\\cfg\\yolov3.cfg",
-    "yolo_weights": "C:\\Users\\imaan\\Desktop\\opencv prj\\Object_detection\\Object det using DRK\\weights\\yolov3.weights",
+    "yolo_cfg": "yolov3.cfg",
+    "yolo_weights": "yolov3.weights",
     "yolo_names": "coco.names",
-    "video_source": "C:\\Users\\imaan\\Desktop\\opencv prj\\Object_detection\\Videos\\cr7.mp4"
+    "video_source": "cr7.mp4"
 
 }
